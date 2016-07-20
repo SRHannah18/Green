@@ -1,0 +1,471 @@
+
+/***********************************
+Style Sheet for Green Podcast.
+Wordpress uses this in style.css
+***********************************/
+
+
+
+
+
+
+/****RESET****/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/****Fonts****/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2ea985");
+  
+@font-face {font-family: 'Leitura';src: url('../fonts/2EA985_0_0.eot');
+src: url('../fonts/2EA985_0_0.eot?#iefix') format('embedded-opentype'),
+url('../fonts/2EA985_0_0.woff2') format('woff2'),url('../fonts2/EA985_0_0.woff') 
+format('woff'),url('../fonts/2EA985_0_0.ttf') format('truetype');}
+
+
+@import url("//hello.myfonts.net/count/31a020");
+
+@font-face {font-family: 'Futura';src: url('../fonts/31A020_0_0.eot');
+src: url('../fonts/31A020_0_0.eot?#iefix') format('embedded-opentype'),
+url('../fonts/31A020_0_0.woff2') format('woff2'),url('../fonts2/EA985_0_0.woff') 
+format('woff'),url('../fonts/31A020_0_0.ttf') format('truetype');}
+
+
+
+
+/****Tag Styles****/
+
+html{
+	/*background-color: #78c608;
+	color: #152400;*/
+	font-size: 62.5%;
+	
+}
+
+.leitura-loaded html{
+	font-family: 'Leitura';
+}
+
+
+
+body{
+	background-color: #78c608;
+}
+
+
+.leitura-loaded	body{
+	font-family: 'Leitura';
+}
+
+/*.futura-loaded body{
+	font-family: 'Futura';
+}*/
+
+img{
+	border-radius: 100%;
+	border: .4em solid white;
+	display: block;
+	margin: 1em auto;
+	box-shadow: .35rem .25rem .2rem grey;
+	max-width: 16rem;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+	border-bottom: 1px solid #78c608;
+}
+
+a:hover{
+	color: #78c608;
+}
+
+p{
+	display: inline;
+	
+	font-size: 1.4em;
+	font-style: italic;
+}
+
+h1{
+	font-family: 'Futura';
+	color: white;
+	font-size: 3.2em;
+	
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-shadow: .05em .05em .05em grey;
+
+}
+
+h2{
+	display: inline-block;
+	font-family: "Futura","Open Sans Condensed", sans-serif;
+	font-size: 1.9em;
+	
+	margin: 0 auto;
+}
+
+h3{
+	font-family: 'Leitura',"Georgia", Times, Serif;
+	font-size: 1.9em;
+	padding-top: 1rem; 
+}
+
+h4{
+	font-size: 2em;
+	font-family: "Georgia", Times, Serif;
+}
+
+
+h6{
+
+	font-family: "Arial","Open Sans Condensed", sans-serif;
+	font-size: 2em;
+	font-weight: bolder;
+
+}
+
+dd{
+	font-family: 'Leitura',"Georgia", Times, Serif;
+	display: inline;
+	
+	font-size: 1.7em;
+}
+
+dt{
+	font-family: 'Futura','Open Sans Condensed', sans-serif;
+	display: inline;
+	font-size: 1.6em;
+	font-weight: bold;
+	
+}
+
+dl{
+	padding: 1rem 0rem;
+}
+
+footer{
+	background-color: white;
+	text-align: center;
+}
+
+blockquote {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+/****Utilities****/
+	
+	/***Floats***/
+
+.clearfix:after {
+    content: ".";
+    display: block;    
+   	clear: both;
+   	height: 0;
+   	visibility: hidden;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.clear: {
+	clear: both;
+}
+
+
+	/***Spacing***/
+
+.padvertical{
+	padding: 1rem 0;
+}
+
+.padhorizontal{
+	padding: 0 .5rem;
+}
+
+.padtop{
+	padding-top: 1rem;
+}
+
+.padbottom{
+	padding-bottom: 1rem;
+}
+
+.padbottom5{
+	padding-bottom: 5rem;
+}
+.margintop{
+	margin-top: 2rem;
+}
+
+
+.center{
+	margin: 0 auto;
+}
+
+
+
+
+	/***Text***/
+.textcenter{
+	text-align: center;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+
+
+
+
+/****Containers****/
+.main{
+	
+	margin: 0 auto;
+	background-color: white;
+	;
+}
+
+
+
+/****Section Specific Classes****/
+.excerpt {
+	float: left;
+	padding: 2rem 0rem;
+	text-align: center;
+}
+
+.transcript{
+	font-family: "Georgia", Times, Serif;
+	max-width: 80%;
+	margin: 0 auto;
+	padding-top: 4rem;
+	padding-bottom: 4rem;	
+}
+
+.header{
+	/*max-width: 95%;*/
+	margin: 0 auto;
+	padding-bottom: 3em;
+	/*background: linear-gradient( -45deg, #78c608, #F7F7F7);*/
+	background-color: #78c608;
+	
+}
+
+.header img{
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	max-width: 85%
+}
+
+.summary{
+	
+	display: block;
+	
+	
+}
+
+.summarycontainer{
+	display: block;
+	max-width: 90%;
+	/*border: 3px solid blue;*/
+	margin: 0 auto;
+	padding-top: 2rem;
+
+}
+
+.player{
+	position: relative;
+	top: 2.35rem;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.guest_summary{
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+	padding-bottom: 4em;
+}
+
+.guest_bio{
+	text-align: center;
+	max-width: 90%;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+	position: relative;
+	bottom: 2rem;
+
+	
+}
+
+.bio_container{
+	background-color: #F7F7F7;
+	position: relative;
+	bottom: 1rem;
+}
+
+.avatar_bio{
+	max-width: 40%;
+	bottom: 2.5rem;
+}
+
+.next_container{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.next{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	background-color: #78c608;
+}
+
+.next h2{
+	font-size: 2em;
+	display: block;
+}
+
+.next a{
+	color: white;
+}
+
+.next a:hover{
+	color: grey;
+}
+.next_guest img{
+	display: inline-block;
+	width: 7rem;
+	border: none;
+}
+
+.next_guest h6{
+
+	padding-left:  1rem;
+	padding-top: 3rem;
+}
+
+.next_guest{
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+table{
+	margin: 0 auto;
+}
+
+td h6{
+	padding-bottom: 3rem;
+}
+
+.footer{
+	display: inline-block;
+	text-align: center;
+	max-width: 90%;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+	padding-top: 2rem;
+}
+
+.footer a{
+	color: grey;
+
+}
+
+.footer img{
+	border-radius: 0%;
+	box-shadow: none;
+}
+
+.copyright{
+	color: grey;
+	display: block;
+	margin: 3rem;
+}
+
+
+
+
+
+
+
+/*****MEDIA QUERIES*****/
+
+@media screen and (min-width: 640px){
+
+	dl{
+		display: block;
+		padding: 2rem;
+	}
+	dt{
+		display: block;
+		float: left;
+		width: 33%;
+		text-align: center;
+	}
+
+	dd{
+		display: block;
+		float: left;
+		max-width: 67%;
+		padding-bottom: 2rem;
+	}
+	.summary{
+		max-width: 50%;
+		float: left;
+		margin: 0 auto;
+		height: 50em;
+	}
+
+	
+}
+
+
+@media screen and (min-width: 960px){
+
+
+	.summary{
+		max-width: 33.33%;
+		float: left;
+		margin: 0 auto;
+		height: 50em;
+		
+	}
+
+	h1{
+		font-size: 8em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
