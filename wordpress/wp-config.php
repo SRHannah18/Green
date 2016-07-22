@@ -20,52 +20,99 @@
 
 
 // BreakPoint for testing out if statement for server************************************************************
-
-
-if ($_SERVER['SERVER_NAME'] === "localhost/wordpress"){
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+// if ($_SERVER['SERVER_NAME'] === "http://sethhannah.com"){
 
-/** MySQL database username */
-define('DB_USER', 'root');
+// 	define('DB_NAME', 'sethhann_green');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
+// 	/** MySQL database username */
+// 	define('DB_USER', 'sethhann');
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+// 	/** MySQL database password */
+// 	define('DB_PASSWORD', 'Konstantine11!');
 
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+// 	/** MySQL hostname */
+// 	define('DB_HOST', 'localhost');
 
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+// 	* Database Charset to use in creating database tables. 
+// 	define('DB_CHARSET', 'utf8');
 
-}else  {
+// 	/** The Database Collate type. Don't change this if in doubt. */
+// 	define('DB_COLLATE', '');
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'sethhann_green');
+// 	define('WP_HOME', 'http://sethhannah.com');
+// 	define('WP_SITEURL', 'http://sethhannah.com') 
 
-/** MySQL database username */
-define('DB_USER', 'sethhann');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'Konstantine11!');
+// }
+// else{
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+// 	echo 'test';
 
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+// 	exit;
 
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+// 	// ** MySQL settings - You can get this info from your web host ** //
+// 	/** The name of the database for WordPress */
+// 	define('DB_NAME', 'wordpress');
 
-define('WP_HOME', 'http://sethhannah.com');
-define('WP_SITEURL', 'http://sethhanna.com') 
+// 	/** MySQL database username */
+// 	define('DB_USER', 'root');
 
+// 	/** MySQL database password */
+// 	define('DB_PASSWORD', 'root');
+
+// 	/** MySQL hostname */
+// 	define('DB_HOST', 'localhost');
+
+// 	/** Database Charset to use in creating database tables. */
+// 	define('DB_CHARSET', 'utf8');
+
+// 	/** The Database Collate type. Don't change this if in doubt. */
+// 	define('DB_COLLATE', '');
+
+// }
+if ( $_SERVER['SERVER_NAME'] === 'sethhannah.com'){
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'green');
+
+	/** MySQL database username */
+	define('DB_USER', 'sethhann');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'Konstantine11!');
+
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
+
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+
+}else{
+
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'wordpress');
+
+	/** MySQL database username */
+	define('DB_USER', 'root');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'root');
+
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
+
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+}
 
 /**#@+
  * Authentication Unique Keys and Salts.
