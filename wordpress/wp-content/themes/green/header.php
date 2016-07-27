@@ -4,6 +4,7 @@
 	<head>
 		
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Green</title>
 		
 		<script type="text/javascript" src="/wordpress/wp-content/themes/green/js/fontfaceobserver.standalone.js"></script>
