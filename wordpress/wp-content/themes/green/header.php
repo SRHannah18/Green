@@ -17,7 +17,7 @@
 	<body class="clearfix">
 		
 		<div class="header">
-			<div class="padbottom">
+			<div class="padbottom width">
 				<a href="http://localhost/wordpress"><img src="<?php header_image(); ?>" alt="header logo"></a>
 			</div>
 

@@ -1,6 +1,6 @@
 
 <div class="bio_container">
-	<div class="guest_bio">
+	<div class="guest_bio width">
 	<!-- Avatar -->
 		<?php $image = wp_get_attachment_image_src(get_field('guest_avatar'), 'thumbnail'); ?>
 		<img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_field('guest_avatar')) ?>" class="avatar_bio" />

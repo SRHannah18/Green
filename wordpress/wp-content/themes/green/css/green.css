@@ -239,8 +239,10 @@ blockquote {
 	
 	margin: 0 auto;
 	background-color: white;
-	;
+	
 }
+
+
 
 
 
@@ -252,7 +254,7 @@ blockquote {
 }
 
 .transcript{
-	font-family: "Georgia", Times, Serif;
+	font-family: "Leitura" "Georgia", Times, Serif;
 	max-width: 80%;
 	margin: 0 auto;
 	padding-top: 4rem;
@@ -346,6 +348,7 @@ blockquote {
 
 .next a{
 	color: white;
+	text-decoration: underline;
 }
 
 .next a:hover{
@@ -379,10 +382,10 @@ td h6{
 .footer{
 	display: inline-block;
 	text-align: center;
-	max-width: 90%;
 	margin: 0 auto;
 	margin-bottom: 4rem;
 	padding-top: 2rem;
+	
 }
 
 .footer a{
@@ -393,6 +396,7 @@ td h6{
 .footer img{
 	border-radius: 0%;
 	box-shadow: none;
+	border: none;
 }
 
 .copyright{
@@ -401,8 +405,56 @@ td h6{
 	margin: 3rem;
 }
 
+.blockquote{
+	background-image: "/../img/quoterectangle.png";
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 2rem;
+	position: relative;
+}
 
+.blockquote:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 18%;
+    top: 1.5rem;
+    left: -15%;
+    border: .3rem solid #78c608;
+    }
 
+blockquote{
+	width: 100%;
+	
+	display: block;
+	font-family: "Futura";
+	font-size: 2.5em;
+	text-align: left;
+	
+	text-indent: 3rem;
+}
+
+.blockquote a{
+	width: 100%;
+	
+	display: block;
+	font-family: "Futura";
+	font-size: 1em;
+	text-align: left;
+	border: none;
+	
+	text-indent: 3rem;
+}
+
+.blockquote img{
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	width: 4rem;
+	position: relative;
+	left: 30%;
+	top: -.5rem;
+}
 
 
 
@@ -411,6 +463,21 @@ td h6{
 
 @media screen and (min-width: 640px){
 
+	.next_guest h6{
+		font-size: 2.5em;
+	}
+	.next h2{
+	font-size: 3em;
+	display: block;
+	}
+
+	.next_guest img{
+	display: inline-block;
+	width: 10rem;
+	border: none;
+	}
+	
+
 	dl{
 		display: block;
 		padding: 2rem;
@@ -418,7 +485,7 @@ td h6{
 	dt{
 		display: block;
 		float: left;
-		width: 33%;
+		width: 25%;
 		text-align: center;
 	}
 
@@ -435,8 +502,60 @@ td h6{
 		height: 50em;
 	}
 
+	.blockquote{
+		display: block;
+		width: 100%;
+		padding-bottom: 2rem;
+	}
+	.blockquote:before {
+            content: '';
+            display: block;
+            position: relative;
+            width: 18%;
+            top: 53rem;
+            left: 10%;
+            border: .3rem solid #78c608;
+        }
+
+
+	blockquote{
+		display: block;
+		max-width: 67%;
+		font-size: 3em;
+		position: relative;
+		left: 9.5%;
+		
+	}
+
 	
 }
+
+@media screen and (min-width: 680px){
+
+	.blockquote:before {
+            content: '';
+            display: block;
+            position: relative;
+            width: 18%;
+            top: 41rem;
+            left: 10%;
+            border: .3rem solid #78c608;
+        }
+}
+
+@media screen and (min-width: 868px){
+
+	.blockquote:before {
+            content: '';
+            display: block;
+            position: relative;
+            width: 18%;
+            top: 28.5rem;
+            left: 10%;
+            border: .3rem solid #78c608;
+        }
+}
+
 
 
 @media screen and (min-width: 960px){
@@ -453,10 +572,82 @@ td h6{
 	h1{
 		font-size: 8em;
 	}
+
+	footer p{
+		display: inline-block;
+		max-width: 45%;
+		float: left;
+		text-align: left;
+	}
+
+	.copyright {
+		
+		float: right;
+		margin: 0 0;
+	}
+
+	.copyright p{
+		display: block;
+		max-width: 100%;
+		position: relative;
+		text-align: right;
+	}
+
+	.copyright img{
+		position: relative;
+		left: 25rem;
+		margin: 0 0;
+
+	}
+
+	.width{
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.blockquote:before {
+            content: '';
+            display: block;
+            position: relative;
+            width: 18%;
+            top: 41rem;
+            left: 10%;
+            border: .3rem solid #78c608;
+        }
+
+
 }
 
 
+@media screen and (min-width: 1157px){
 
+	.blockquote:before {
+            content: '';
+            display: block;
+            position: relative;
+            width: 18%;
+            top: 28.5rem;
+            left: 10%;
+            border: .3rem solid #78c608;
+        }
+
+
+}
+
+@media screen and (min-width: 1706px){
+
+	.blockquote:before {
+            content: '';
+            display: block;
+            position: relative;
+            width: 18%;
+            top: 16.5rem;
+            left: 8.5%;
+            border: .3rem solid #78c608;
+        }
+
+
+}
 
 
 

@@ -58,7 +58,7 @@ $first_episode_ID = array_values($the_query)[0];
 
 
 
-<div class="next">
+<div class="next clearfix">
 	<h4 class="textcenter"> Up Next: Episode <?php the_field('episode_number',$next_post->ID);?> with</h4> 
 
 	
