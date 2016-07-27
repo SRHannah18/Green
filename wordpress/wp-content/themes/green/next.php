@@ -16,7 +16,7 @@ if($the_query){
 	}
 }
 
-$first_episode_ID[] = array_values($the_query)[0]; 
+$first_episode_ID = array_values($the_query[0]); 
 
 ?>
 
