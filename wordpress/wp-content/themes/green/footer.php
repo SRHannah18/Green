@@ -13,9 +13,10 @@
 
 				
 					<a href="http://www.superfriend.ly/academy">
-					<img src="/wordpress/wp-content/themes/green/img/sf-logo.svg" alt="SuperFriendly Academy"/>
+					<img src="/green/wordpress/wp-content/themes/green/img/sf-logo.svg" alt="SuperFriendly Academy"/>
 					</a>
 				</div>
+				
 			</div>
 			
 
