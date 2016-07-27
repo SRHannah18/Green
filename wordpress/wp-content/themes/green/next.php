@@ -7,7 +7,6 @@
 
 
 
-
 <?php
 // get 10 recent post IDs from category 1
 $the_query = get_posts( 'cat=1&posts_per_page=10&fields=ids' );
@@ -16,7 +15,8 @@ if($the_query){
 		
 	}
 }
-$first_episode_ID = array_values($the_query)[0]; 
+
+$first_episode_ID[] = array_values($the_query)[0]; 
 
 ?>
 
@@ -58,7 +58,7 @@ $first_episode_ID = array_values($the_query)[0];
 
 
 
-<div class="next clearfix">
+<div class="next">
 	<h4 class="textcenter"> Up Next: Episode <?php the_field('episode_number',$next_post->ID);?> with</h4> 
 
 	
