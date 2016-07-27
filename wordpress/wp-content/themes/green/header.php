@@ -18,7 +18,7 @@
 		
 		<div class="header">
 			<div class="padbottom width">
-				<a href="http://www.sethhannah.com/green/wordpress"><img src="<?php header_image(); ?>" alt="header logo"></a>
+				<a href="http://sethhannah.com/green/wordpress"><img src="<?php header_image(); ?>" alt="header logo"></a>
 			</div>
 
 	        <div class="textcenter">             
