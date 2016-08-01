@@ -75,7 +75,7 @@ img{
 }
 
 a{
-	color: grey;
+	color: black;
 	text-decoration: none;
 	border-bottom: 1px solid #78c608;
 }
@@ -146,6 +146,7 @@ dt{
 }
 
 dl{
+	display: block;
 	padding: 1rem 0rem;
 }
 
@@ -534,7 +535,7 @@ blockquote{
 	dd{
 		display: block;
 		float: left;
-		max-width: 67%;
+		width: 75%;
 		padding-bottom: 2rem;
 	}
 	.summary{
