@@ -70,7 +70,7 @@ img{
 	border: .4em solid white;
 	display: block;
 	margin: 1em auto;
-	box-shadow: .35rem .25rem .2rem grey;
+	box-shadow: .5rem .25rem .2rem rgba(0, 0, 0, 0.1);
 	max-width: 16rem;
 }
 
@@ -118,13 +118,13 @@ h3{
 
 h4{
 	font-size: 2em;
-	font-family: "Georgia", Times, Serif;
+	font-family: 'Leitura',"Georgia", Times, Serif;
 }
 
 
 h6{
 
-	font-family: "Arial","Open Sans Condensed", sans-serif;
+	font-family: "Futura","Open Sans Condensed", sans-serif;
 	font-size: 2em;
 	font-weight: bolder;
 
@@ -442,7 +442,7 @@ blockquote{
 	font-size: 1em;
 	text-align: left;
 	border: none;
-	
+	color: black;
 	text-indent: 3rem;
 }
 
@@ -450,16 +450,58 @@ blockquote{
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	width: 4rem;
+	width: 2.5rem;
 	position: relative;
-	left: 30%;
-	top: -.5rem;
+	left: 20%;
+	top: -4.1rem;
 }
 
 
 
 
 /*****MEDIA QUERIES*****/
+
+@media screen and (min-width: 344px){
+
+	.blockquote img{
+		left: 37%;
+	}
+}
+
+@media screen and (min-width: 373px){
+
+	.blockquote img{
+		left: 7%;
+	}
+}
+
+@media screen and (min-width: 430px){
+
+	.blockquote img{
+		left: 43%;
+	}
+}
+
+@media screen and (min-width: 442px){
+
+	.blockquote img{
+		left: -2%;
+	}
+}
+
+@media screen and (min-width: 506px){
+
+	.blockquote img{
+		left: 52%;
+	}
+}
+
+@media screen and (min-width: 553px){
+
+	.blockquote img{
+		left: 3%;
+	}
+}
 
 @media screen and (min-width: 640px){
 
@@ -527,6 +569,11 @@ blockquote{
 		
 	}
 
+	.blockquote img{
+		left: 31%;
+
+	}
+
 	
 }
 
@@ -541,6 +588,13 @@ blockquote{
             left: 10%;
             border: .3rem solid #78c608;
         }
+}
+
+@media screen and (min-width: 769px){
+
+	.blockquote img{
+		left: 37%;
+	}
 }
 
 @media screen and (min-width: 868px){
