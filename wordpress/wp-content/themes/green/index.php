@@ -32,4 +32,4 @@
 	?>
 </div>  
 
-	<?php get_footer(); ?>
+	<?php get_template_part('home-footer', get_post_format()); ?>

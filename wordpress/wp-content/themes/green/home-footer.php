@@ -1,7 +1,5 @@
-
-		
-		<footer>
-			<div class="footer width">	
+<footer>
+			<div class="footer width home_footer">	
 			
 				<p>Green is a Podcast about learning how to teach and teaching how go learn.
 				It's produced by <a href="http://www.superfriend.ly/academy">SuperFriendly Academy</a>
@@ -20,7 +18,7 @@
 			</div>
 			
 
-		</footer><?php //wp_nav_menu(array('theme_location' => 'secondary')); ?>
+		</footer><?php wp_nav_menu(array('theme_location' => 'secondary')); ?>
 
 		
 

@@ -150,17 +150,25 @@ dl{
 	padding: 1rem 0rem;
 }
 
+dl:after{
+	  content: ".";
+    display: block;    
+   	clear: both;
+   	height: 0;
+   	visibility: hidden;
+}
+
 footer{
 	background-color: white;
 	text-align: center;
 }
 
-blockquote {
+/*blockquote {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-}
+}*/
 
 
 
@@ -380,6 +388,10 @@ td h6{
 	padding-bottom: 3rem;
 }
 
+.home_footer{
+	background-color: #78c608;
+}
+
 .footer{
 	display: inline-block;
 	text-align: center;
@@ -406,106 +418,76 @@ td h6{
 	margin: 3rem;
 }
 
+
 .blockquote{
-	background-image: "/../img/quoterectangle.png";
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 2rem;
 	position: relative;
+	padding-bottom: 2rem;
 }
 
-.blockquote:before {
-    content: '';
-    display: block;
-    position: relative;
-    width: 18%;
-    top: 1.5rem;
-    left: -15%;
-    border: .3rem solid #78c608;
-    }
-
-blockquote{
+a.tweet-link {
+	color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	width: 100%;
+	height: 100%;
 	
-	display: block;
-	font-family: "Futura";
-	font-size: 2.5em;
-	text-align: left;
+	opacity: .2;
+	text-indent: -999999px;
+	text-decoration: none;
+}
+
+.tweet-link a:hover{
+	color: #78c608;
+}
+
+blockquote p{
+	font-family: 'Futura','Open Sans Condensed', sans-serif;
+	font-size: 3rem;
+	font-style: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+blockquote::hover{
+	color: #78c608;
+}
+.blockquote p:after{
+	content: url(/wordpress/wp-content/themes/green/img/twitter2.png);
+	padding-left: 1rem;
 	
-	text-indent: 3rem;
+}
+
+.blockquote p:before{
+	content: '';
+	display: inline-block;
+	position: relative;
+	bottom: 1rem;
+	right: 2rem;
+
+	width: 5.5rem;
+	height: .7rem;
+	background-color: #78c608;
 }
 
 .blockquote a{
-	width: 100%;
-	
-	display: block;
-	font-family: "Futura";
-	font-size: 1em;
-	text-align: left;
+	text-decoration: none;
 	border: none;
-	color: black;
-	text-indent: 3rem;
-}
-
-.blockquote img{
-	border: none;
-	border-radius: 0;
-	box-shadow: none;
-	width: 2.5rem;
-	position: relative;
-	left: 20%;
-	top: -4.1rem;
 }
 
 
 
 
-/*****MEDIA QUERIES*****/
 
-@media screen and (min-width: 344px){
 
-	.blockquote img{
-		left: 37%;
-	}
-}
 
-@media screen and (min-width: 373px){
-
-	.blockquote img{
-		left: 7%;
-	}
-}
-
-@media screen and (min-width: 430px){
-
-	.blockquote img{
-		left: 43%;
-	}
-}
-
-@media screen and (min-width: 442px){
-
-	.blockquote img{
-		left: -2%;
-	}
-}
-
-@media screen and (min-width: 506px){
-
-	.blockquote img{
-		left: 52%;
-	}
-}
-
-@media screen and (min-width: 553px){
-
-	.blockquote img{
-		left: 3%;
-	}
-}
 
 @media screen and (min-width: 640px){
 
+
+	.transcript{
+		max-width: 61.25%;
+	}
 	.next_guest h6{
 		font-size: 2.5em;
 	}
@@ -525,17 +507,21 @@ blockquote{
 		display: block;
 		padding: 2rem;
 	}
+
 	dt{
 		display: block;
 		float: left;
-		width: 25%;
-		text-align: center;
+		font-size: 1.8em;
+		width: 15%;
+		text-align: right;
+		position: relative;
+		right: 5.5rem;
 	}
 
 	dd{
 		display: block;
 		float: left;
-		width: 75%;
+		width: 85%;
 		padding-bottom: 2rem;
 	}
 	.summary{
@@ -544,72 +530,22 @@ blockquote{
 		margin: 0 auto;
 		height: 50em;
 	}
-
-	.blockquote{
-		display: block;
-		width: 100%;
-		padding-bottom: 2rem;
+	.blockquote {
+		width: 85%;
+		float: right;
+		left: 1.5rem;
 	}
-	.blockquote:before {
-            content: '';
-            display: block;
-            position: relative;
-            width: 18%;
-            top: 53rem;
-            left: 10%;
-            border: .3rem solid #78c608;
-        }
+	blockquote p{
+	font-family: 'Futura','Open Sans Condensed', sans-serif;
+	font-size: 3.5rem;
+}	
 
 
-	blockquote{
-		display: block;
-		max-width: 67%;
-		font-size: 3em;
-		position: relative;
-		left: 9.5%;
-		
-	}
 
-	.blockquote img{
-		left: 31%;
 
-	}
 
-	
-}
 
-@media screen and (min-width: 680px){
 
-	.blockquote:before {
-            content: '';
-            display: block;
-            position: relative;
-            width: 18%;
-            top: 41rem;
-            left: 10%;
-            border: .3rem solid #78c608;
-        }
-}
-
-@media screen and (min-width: 769px){
-
-	.blockquote img{
-		left: 37%;
-	}
-}
-
-@media screen and (min-width: 868px){
-
-	.blockquote:before {
-            content: '';
-            display: block;
-            position: relative;
-            width: 18%;
-            top: 28.5rem;
-            left: 10%;
-            border: .3rem solid #78c608;
-        }
-}
 
 
 
@@ -656,53 +592,20 @@ blockquote{
 	}
 
 	.width{
-		width: 60%;
+		width: 76.5625%;
 		margin: 0 auto;
 	}
 
-	.blockquote:before {
-            content: '';
-            display: block;
-            position: relative;
-            width: 18%;
-            top: 41rem;
-            left: 10%;
-            border: .3rem solid #78c608;
-        }
+	
 
 
 }
 
 
-@media screen and (min-width: 1157px){
-
-	.blockquote:before {
-            content: '';
-            display: block;
-            position: relative;
-            width: 18%;
-            top: 28.5rem;
-            left: 10%;
-            border: .3rem solid #78c608;
-        }
 
 
-}
-
-@media screen and (min-width: 1706px){
-
-	.blockquote:before {
-            content: '';
-            display: block;
-            position: relative;
-            width: 18%;
-            top: 16.5rem;
-            left: 8.5%;
-            border: .3rem solid #78c608;
-        }
 
 
-}
 
 
 

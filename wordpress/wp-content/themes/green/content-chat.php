@@ -55,7 +55,7 @@ episod number in the title-->
 
 <?php get_footer();?>
 
-<?php echo the_ID(); ?>
+
 
 
 
