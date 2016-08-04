@@ -7,8 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Green</title>
 		
-		<script type="text/javascript" src="/wordpress/wp-content/themes/green/js/fontfaceobserver.standalone.js"></script>
-		<script type="text/javascript" src="/wordpress/wp-content/themes/green/js/green.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/green/js/fontfaceobserver.standalone.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/green/js/green.js"></script>
 		 
 		 
 
@@ -19,7 +19,7 @@
 		
 		<div class="header">
 			<div class="padbottom width">
-				<a href="http://sethhannah.com/green/wordpress"><img src="<?php header_image(); ?>" alt="header logo"></a>
+				<a href="http://sethhannah.com/green/"><img src="<?php header_image(); ?>" alt="header logo"></a>
 			</div>
 
 	        <div class="textcenter">             
