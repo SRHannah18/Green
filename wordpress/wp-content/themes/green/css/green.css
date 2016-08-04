@@ -142,6 +142,7 @@ dt{
 	display: inline;
 	font-size: 1.6em;
 	font-weight: bold;
+	text-transform: uppercase;
 	
 }
 
@@ -161,6 +162,9 @@ dl:after{
 footer{
 	background-color: white;
 	text-align: center;
+	position: relative;
+	top: 2rem;
+	padding-bottom: 10rem;
 }
 
 /*blockquote {
@@ -266,7 +270,7 @@ footer{
 	font-family: "Leitura" "Georgia", Times, Serif;
 	max-width: 80%;
 	margin: 0 auto;
-	padding-top: 4rem;
+	padding-top: 10rem;
 	padding-bottom: 4rem;	
 }
 
@@ -304,7 +308,7 @@ footer{
 
 .player{
 	position: relative;
-	top: 2.35rem;
+	top: 8rem;
 	max-width: 80%;
 	margin: 0 auto;
 }
@@ -347,7 +351,7 @@ footer{
 .next{
 	padding-bottom: 1rem;
 	padding-top: 1rem;
-	background-color: #78c608;
+	/*background-color: #78c608;*/
 }
 
 .next h2{
@@ -365,7 +369,7 @@ footer{
 }
 .next_guest img{
 	display: inline-block;
-	width: 7rem;
+	width: 6rem;
 	border: none;
 }
 
@@ -420,6 +424,7 @@ td h6{
 
 
 .blockquote{
+	width: 100%;
 	position: relative;
 	padding-bottom: 2rem;
 }
@@ -431,15 +436,14 @@ a.tweet-link {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	
 	opacity: .2;
 	text-indent: -999999px;
 	text-decoration: none;
 }
 
-.tweet-link a:hover{
-	color: #78c608;
-}
+
+
+
 
 blockquote p{
 	font-family: 'Futura','Open Sans Condensed', sans-serif;
@@ -449,11 +453,9 @@ blockquote p{
 	text-decoration: none;
 }
 
-blockquote::hover{
-	color: #78c608;
-}
+
 .blockquote p:after{
-	content: url(/wordpress/wp-content/themes/green/img/twitter2.png);
+	content: url(/wp-content/themes/green/img/twitter2.png);
 	padding-left: 1rem;
 	
 }
@@ -498,7 +500,6 @@ blockquote::hover{
 
 	.next_guest img{
 	display: inline-block;
-	width: 10rem;
 	border: none;
 	}
 	
@@ -531,14 +532,25 @@ blockquote::hover{
 		height: 50em;
 	}
 	.blockquote {
-		width: 85%;
+		width: 100%;
 		float: right;
 		left: 1.5rem;
+	}
+
+	blockquote{
+		width: 85%;
+		float: right;
 	}
 	blockquote p{
 	font-family: 'Futura','Open Sans Condensed', sans-serif;
 	font-size: 3.5rem;
-}	
+	}	
+	.next a{
+		font-size: 4rem;
+	}
+
+}
+
 
 
 
@@ -592,8 +604,30 @@ blockquote::hover{
 	}
 
 	.width{
-		width: 76.5625%;
+		width: 70%;
 		margin: 0 auto;
+	}
+
+	.next a{
+		font-size: 6rem;
+	}
+
+	.next h4{
+		float: left;
+		width: 50%;
+		text-align: right;
+		position: relative;
+		top: 3.8rem;
+		right: 2rem;
+	}
+
+	.next_guest{
+		float: left;
+		width: 50%;
+	}
+
+	table{
+		margin: 0 0;
 	}
 
 	
