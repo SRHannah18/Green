@@ -81,7 +81,7 @@ if ( $_SERVER['SERVER_NAME'] === 'sethhannah.com'){
 	define('DB_USER', 'sethhann');
 
 	/** MySQL database password */
-	define('DB_PASSWORD', 'Konstantine11!');
+	define('DB_PASSWORD', 'AlkalineQuartet07%');
 
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
@@ -164,3 +164,8 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+define('WP_HOME','http://localhost'); define('WP_SITEURL','http://localhost');
+
+
