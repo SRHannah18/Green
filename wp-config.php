@@ -81,7 +81,7 @@ if ( $_SERVER['SERVER_NAME'] === 'sethhannah.com'){
 	define('DB_USER', 'sethhann');
 
 	/** MySQL database password */
-	define('DB_PASSWORD', 'AlkalineQuartet07%');
+	define('DB_PASSWORD', 'Konstantine11!');
 
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
