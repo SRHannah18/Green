@@ -7,8 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Green</title>
 		
-		<script type="text/javascript" src="/wp-content/themes/green/js/fontfaceobserver.standalone.js"></script>
-		<script type="text/javascript" src="/wp-content/themes/green/js/green.js"></script>
+		<script type="text/javascript" src="code/wp-content/themes/green/js/fontfaceobserver.standalone.js"></script>
+		<script type="text/javascript" src="code/wp-content/themes/green/js/green.js"></script>
 		 
 		 
 
