@@ -4,9 +4,13 @@ the Wordpress CP Transcript Custom Field.  The Transcript format is done with th
 <dl>,<dd>, and <dt> tags. -->
 
 <div class="main">
+
 	<div class="transcript clearfix width">
-		<dl>
+
+		<div class="transcript-contents">
 			<?php the_field('transcript'); ?>
-		</dl>	
+		</div>	
+	
 	</div>
+
 </div>
