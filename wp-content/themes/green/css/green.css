@@ -98,7 +98,7 @@ h1{
 	
 	text-transform: uppercase;
 	font-weight: bolder;
-	text-shadow: .05em .05em .05em grey;
+	/*text-shadow: .05em .05em .05em grey;*/
 
 }
 
@@ -168,6 +168,17 @@ dl:after,
 			margin: 0 0 1.5em;
 		}
 
+		.transcriptContents-speakerText p:first-child {
+			display: inline; 
+			margin-left: 0.5em;			
+		}
+
+		.transcriptContents-speakerText p:first-child:after {
+			content: "";
+			height: 0.2em;
+			display: block;
+		}
+
 
 footer{
 	background-color: white;
@@ -208,6 +219,11 @@ footer{
 
 .clear: {
 	clear: both;
+}
+
+.u-allCaps {
+	text-transform: uppercase;
+	/*letter-spacing: 0.1em;*/
 }
 
 
@@ -270,6 +286,12 @@ footer{
 
 
 /****Section Specific Classes****/
+
+.postTitle {
+	line-height: 1;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
 .excerpt {
 	float: left;
 	padding: 2rem 0rem;
@@ -546,6 +568,18 @@ blockquote p{
 		width: 85%;
 		padding-bottom: 2rem;
 	}
+
+	.transcriptContents-speakerText p:first-child {
+		display: block; 
+		margin-left: 0;			
+	}
+
+	.transcriptContents-speakerText p:first-child:after {
+		content: "";
+		height: 0;
+	}
+
+
 	.summary{
 		max-width: 50%;
 		float: left;
@@ -595,6 +629,10 @@ blockquote p{
 
 	h1{
 		font-size: 8em;
+	}
+
+	.postTitle {
+		text-shadow: 6px 6px rgba(0, 0, 0, 0.2);
 	}
 
 	footer p{

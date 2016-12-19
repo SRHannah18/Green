@@ -74,7 +74,7 @@ $first_episode_ID = $the_query[0];
 				</td>
 		
 				<td>
-					<h6>
+					<h6 class="u-allCaps">
 						<?php
 						the_field('guest_name',$next_post->ID);
 						?>
@@ -85,7 +85,7 @@ $first_episode_ID = $the_query[0];
 		</table>
 	</div>
 
-	<h2 class="textcenter">
+	<h2 class="textcenter u-allCaps">
 	<?php
 		if(!empty($next_post)) {
 		echo '<a href="' . get_permalink($next_post->ID) . '" title="' . $next_post->post_title . '">' . $next_post->post_title . 

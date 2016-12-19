@@ -6,7 +6,7 @@
 		<img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_field('guest_avatar')) ?>" class="avatar_bio" />
 
 		<!-- Name -->
-		<p>More About </p><h2><?php the_field('guest_name');?></h2> 
+		<p>More About </p><h2 class="u-allCaps"><?php the_field('guest_name');?></h2> 
 
 		<!-- Bio -->
 		<h3><?php the_field('guest_bio');?></h3>

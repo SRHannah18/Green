@@ -9,10 +9,10 @@
 	
 	<!-- Guest Name -->
 	<div class="padbottom">
-		<p>Listen to </p><h2><?php the_field('guest_name'); ?></h2><p> in Episode <?php echo $episode_number; ?></p>
+		<p>Listen to </p><h2 class="u-allCaps"><?php the_field('guest_name'); ?></h2><p> in Episode <?php echo $episode_number; ?></p>
 	</div>
 	<!-- Title -->
-	<h1 class="textcenter"><?php the_title(); ?></h1>
+	<h1 class="textcenter postTitle"><?php the_title(); ?></h1>
 
 	<!-- Guest Bio -->
 	<h3><?php the_field('summary');?></h3>
